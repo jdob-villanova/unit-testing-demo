@@ -1,4 +1,4 @@
-package csc4700.bank;
+package csc4700;
 
 import java.util.HashMap;
 import java.util.Map;
