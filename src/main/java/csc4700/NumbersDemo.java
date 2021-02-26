@@ -3,6 +3,18 @@ package csc4700;
 
 public class NumbersDemo {
 
+    public int sumList(int[] nums) {
+        if (nums == null) {
+            throw new IllegalArgumentException();
+        }
+
+        int total = 0;
+        for (int i=0;i < nums.length; i++) {
+            total += nums[i];
+        }
+        return total;
+    }
+
     public int sum(int[] nums) {
         int total = 0;
         for (int i : nums) {

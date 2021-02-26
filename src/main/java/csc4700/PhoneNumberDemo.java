@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class PhoneNumberDemo {
 
-    public boolean isValid(String phoneNumber) {
+    public boolean isNumberValid(String phoneNumber) {
 
         if (phoneNumber == null) {
             throw new IllegalArgumentException();
